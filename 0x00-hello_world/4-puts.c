@@ -3,7 +3,9 @@
 /* prints a sentence */
 int main(void)
 {
-	/* Description: main()function return a void because we are printing a string value
+	/*
+	 * Description: main() function return a void 
+	 * because we are printing a string value
 	 * strcpy()copy the sentence into str1 
 	 * puts() outputs the sentence to the stdout.
 	 */
