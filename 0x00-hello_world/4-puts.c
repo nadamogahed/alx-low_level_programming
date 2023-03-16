@@ -3,10 +3,10 @@
 /**
 * main - function return a void
 * Description: prints "\"Programming is like building a multilingual puzzle"
-* char str[100]: an array of characters
+* char str1[100]:array of chars
 * strcpy: copy the sentence into str1
 * puts: outputs the sentence to the stdout
-* return: 0 value if there is no error
+* return:0 value if there is no error
 */
 int main(void)
 {
