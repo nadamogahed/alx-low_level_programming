@@ -5,6 +5,7 @@
 * because we are printing a string value
 * strcpy()copy the sentence into str1 
 * puts() outputs the sentence to the stdout.
+* return - a 0 value if there is no error
 */
 int main(void)
 {
