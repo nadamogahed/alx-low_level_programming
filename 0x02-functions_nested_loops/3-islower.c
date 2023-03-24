@@ -6,12 +6,5 @@
 */
 int _islower(int)
 {
-	int c;
-
-	if (islower (c) == True)
-	{
-		return (1);
-	}
-	_putchar('\n');
-	return (0);
+	int islower(int c);
 }
