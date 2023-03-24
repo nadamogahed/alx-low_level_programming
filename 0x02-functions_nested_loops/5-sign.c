@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign - prints the alphabet
- * @c: single number input.
+ * @n: single number input.
  * Return: 0 if n is zero
 */
 int print_sign(int n)
