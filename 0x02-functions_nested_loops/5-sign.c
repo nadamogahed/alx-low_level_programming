@@ -14,7 +14,7 @@ int print_sign(int n)
 	{
 		return (0);
 	}
-	else (n < -1)
+	else (n < 0)
 	{
 		return (-1);
 	}
