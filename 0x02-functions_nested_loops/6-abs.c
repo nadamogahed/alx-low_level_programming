@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isalpha - prints the alphabet
+ * _abs - prints the alphabet
  * @i: single letter input.
  * Return: 1 if c is lowercase
 */
