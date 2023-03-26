@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * print_to_98 - prints to 98
  * @n: is the input start number
@@ -9,12 +9,12 @@ void print_to_98(int n)
 {
 	while (n <= 98)
 	{
-		_putchar(n);
+		putchar(n);
 		n++;
 	}
 	while (n > 98)
         {
-                _putchar(n + '0');
+                putchar(n);
                 n--;
         }
 }
