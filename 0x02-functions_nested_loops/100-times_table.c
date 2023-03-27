@@ -17,15 +17,15 @@ void print_times_table(int n)
 			{
 				sum = (i * x);
 				_putchar(',');
-				_putchar('.');
+				_putchar(' ');
 				if (sum < 10)
 				{
-					_putchar('.');
-					_putchar('.');
+					_putchar(' ');
+					_putchar(' ');
 				}
 				else if (sum > 9 && sum < 100)
 				{
-					_putchar('.');
+					_putchar(' ');
 					_putchar((sum / 10) + '0');
 				}
 				else if (sum > 99)
