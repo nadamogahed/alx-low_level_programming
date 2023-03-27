@@ -16,7 +16,7 @@ int main(void)
 			result += i;
 		i++;
 	}
-	printf("%d", result);
+	printf("%d ", result);
 	return (0);
 }
 
