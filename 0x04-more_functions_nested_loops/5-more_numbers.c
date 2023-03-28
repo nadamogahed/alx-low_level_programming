@@ -11,18 +11,10 @@ void print_numbers(void)
 	{
 		for (x = 48; x < 58; x++)
 		{
-			_putchar(x);
+			if ((x / 10) > 0)
+				_putchar((x / 10) + '0');
+			_putchar((x % 10) + '0');
 		}
-		_putchar(49);
-		_putchar(48);
-		_putchar(49);
-		_putchar(49);
-		_putchar(49);
-		_putchar(50);
-		_putchar(49);
-		_putchar(51);
-		_putchar(49);
-		_putchar(52);
 		_putchar('\n');
 		i++;
 	}
