@@ -9,10 +9,12 @@ void print_numbers(void)
 
 	while (i < 10)
 	{
-		for (x = 48; x < 15; x++)
+		for (x = 48; x < 58; x++)
 		{
 			_putchar(x);
 		}
+		_putchar(49);
+		_putchar(48);
 		_putchar(49);
 		_putchar(49);
 		_putchar(49);
