@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print_numbers - check if char is upper or not
+ * more_numbers - check if char is upper or not
  * Return: no return value
 */
-void print_numbers(void)
+void more_numbers(void)
 {
 	int i, x;
 
