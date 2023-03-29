@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _isdigit - check if its digit or char
- * @c: input.
+ * _puts - print a srting
+ * @str: pointer to a string.
  * Return: 1 if c is uppercase
 */
 void _puts(char *str)
