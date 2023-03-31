@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * _strncat - concatnate two strings
+ * _strncpy - concatnate two strings
  * @dest: input first string
  * @src: input second string
  * @n: input for when to stop
  * Return: string
 */
-char *_strncat(char *dest, char *src, int n)
+char *__strncpy(char *dest, char *src, int n)
 {
 	int i;
 
