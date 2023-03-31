@@ -3,11 +3,12 @@
  * _strcmp - compare two strings
  * @s1: first string to compare
  * @s2: second string to compare
- * Return: string
+ * Return: result
 */
 int _strcmp(char *s1, char *s2)
 {
-	int i, result = 0;
+	int i = 0;
+	int result = 0;
 
 	result = s1[0] - s2[0];
 
