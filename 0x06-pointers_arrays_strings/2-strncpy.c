@@ -6,7 +6,7 @@
  * @n: input for when to stop
  * Return: string
 */
-char *__strncpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
