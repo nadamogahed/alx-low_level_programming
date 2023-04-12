@@ -3,7 +3,8 @@
 #include "main.h"
 /**
  * create_array - creates an array of chars
- *
+ * @size: the size of the array
+ * @c: a character to insert into the array
  * return: a pointer to the array, or NULL if it fails
  */
 char *create_array(unsigned int size, char c)
@@ -19,7 +20,7 @@ char *create_array(unsigned int size, char c)
 	if (array == 0)
 		return (0);
 
-	for (i = 0; i <size; i++)
+	for (i = 0; i < size; i++)
 	{
 		array[i] = c;
 	}
