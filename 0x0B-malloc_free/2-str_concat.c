@@ -11,7 +11,7 @@ char *str_concat(char *s1, char *s2)
 {
 	char *new_string;
 	char *tmp_s1 = s1, *temp_s2 = s2;
-	int len_s1 = 0, len_s2 = 0, i = 0, j=0;
+	int len_s1 = 0, len_s2 = 0, i = 0, j = 0;
 
 	while (*tmp_s1)
 	{
@@ -29,6 +29,9 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 
 	new_string = malloc((len_s1 + len_s2 + 1) * sizeof(char));
+
+	if (new_string == NULL)
+		return (NULL);
 
 	while (i < len_s1)
 	{
