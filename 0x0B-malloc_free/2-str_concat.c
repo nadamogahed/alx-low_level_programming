@@ -10,23 +10,19 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *new_string;
-	char *tmp_s1 = s1, *temp_s2 = s2;
 	int len_s1 = 0, len_s2 = 0, i = 0, j = 0;
 
-	while (*tmp_s1)
+	if (s1 != NULL)
 	{
-		len_s1++;
-		tmp_s1++;
+		while (s1[len_s1])
+			len_s1++;
 	}
 
-	while (*temp_s2)
+	if (s2 != NULL)
 	{
-		len_s2++;
-		temp_s2++;
+		while (s2[len_s2])
+			len_s2++;
 	}
-
-	if (s1 == NULL && s2 == NULL)
-		return (NULL);
 
 	new_string = malloc((len_s1 + len_s2 + 1) * sizeof(char));
 
