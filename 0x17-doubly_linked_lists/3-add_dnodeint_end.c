@@ -22,12 +22,10 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	/* 2. put in the data  */
 	new_node->n = n;
 
-	/* 3. This new node is going to be the last node, so
-          make next of it as NULL*/
+	/* 3. new node is going to be the last node, make next as NULL*/
 	new_node->next = NULL;
 
-	/* 4. If the Linked List is empty, then make the new
-          node as head */
+	/* 4. If the Linked List empty, then make node as head */
 	if (*head == NULL)
 	{
 		new_node->prev = NULL;
